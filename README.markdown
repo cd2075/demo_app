@@ -1,7 +1,7 @@
-== Welcome to Rails
+Ruby on Rails demo app 
 
-Rails is a web-application framework that includes everything needed to create
-database-backed web applications according to the Model-View-Control pattern.
+
+
 
 This pattern splits the view (also called the presentation) into "dumb"
 templates that are primarily responsible for inserting pre-built data in between
@@ -44,7 +44,7 @@ the following resources handy:
 * Ruby on Rails Tutorial Book: http://www.railstutorial.org/
 
 
-== Debugging Rails
+
 
 Sometimes your application goes wrong. Fortunately there are a lot of tools that
 will help you debug it and get it back on the rails.
@@ -90,9 +90,9 @@ resume execution! You need to install ruby-debug to run the server in debugging
 mode. With gems, use <tt>sudo gem install ruby-debug</tt>. Example:
 
   class WeblogController < ActionController::Base
-    def index
+
       @posts = Post.find(:all)
-      debugger
+
     end
   end
 
@@ -136,7 +136,6 @@ Options:
   environment. Example: <tt>rails console production</tt>.
 
 To reload your controllers and models after launching the console run
-<tt>reload!</tt>
 
 More information about irb can be found at:
 link:http://www.rubycentral.com/pickaxe/irb.html
